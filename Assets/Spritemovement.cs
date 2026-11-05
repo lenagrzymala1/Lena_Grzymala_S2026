@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class InputTEST1 : MonoBehaviour
+public class Spritemovement : MonoBehaviour
 {
     public SpriteRenderer sprite;
     float speed = 5f;
