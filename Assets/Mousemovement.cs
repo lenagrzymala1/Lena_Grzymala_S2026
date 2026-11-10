@@ -20,6 +20,6 @@ public class Mousemovement : MonoBehaviour
             follow = !follow;
         
         if(follow)
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Vector3.back *10;
+            transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f)) - Vector3.back *10;
     }
 }
